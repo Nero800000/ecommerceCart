@@ -4,6 +4,7 @@ import style from '@/app/styles/cart.module.css'
 import { CartState } from "../styles/store/Cart";
 import { CartItem } from "../styles/store/Cart";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 export default function CartPage() {
   const router = useRouter()
 
@@ -24,7 +25,9 @@ const handleFinish = () => {
 }
   return (
     <div>
+      
       <h1>Seu Carrinho</h1>
+      <Link href="/">Retornar</Link>
        <h1>Total {total}</h1>
         <h1>{totalPrice.toFixed(2)}</h1>
           {totalPriceDescont === totalPrice ? "": <h1>Desconto:{totalPriceDescont.toFixed(2)}</h1>}

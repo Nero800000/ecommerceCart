@@ -43,3 +43,8 @@
 .list li:hover::after {
    width: 100%;
 }
+
+.link {
+  color: white;
+  text-decoration: none;
+}

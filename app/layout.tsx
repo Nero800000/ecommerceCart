@@ -14,8 +14,10 @@ import Link from "next/link";
           <nav className={style.mynav}>
             <h1>logo</h1>
             <ul className={style.list}>
-              <Link href="/">Home</Link>
-              <Link href="/profile">Perfil</Link>
+             <li><Link className={style.link} href="/">Home</Link></li> 
+             <li><Link className={style.link} href="/profile">profile</Link></li> 
+           
+              
               <AuthButton/>
               
             </ul>
