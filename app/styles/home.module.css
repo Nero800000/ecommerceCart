@@ -1,0 +1,39 @@
+.count {
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+.container  {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr); /* sempre 3 colunas */
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+    background-color: rgb(202, 195, 195);
+    height: 300px;
+    width:90%;
+    padding:20px;
+    overflow-y: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+
+@media (max-width: 768px) {
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+    height: auto;        /* remove altura fixa */
+    overflow-y: visible; /* remove scroll interno */
+    width: 100%;
+}
+
+}

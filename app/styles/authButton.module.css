@@ -1,0 +1,21 @@
+
+.container{
+   position: relative;
+   cursor: pointer;
+}
+.myImage {
+  border-radius: 100%;
+  padding: 10px;
+cursor: pointer;
+}
+.logout {
+cursor: pointer;
+color: white;
+transition: color ease-in-out 01s;
+}
+
+
+.logout:hover {
+color:red;
+}
+

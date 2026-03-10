@@ -1,0 +1,58 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.product:last-child {
+  border-bottom: none;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.price {
+  color: #666;
+  font-size: 14px;
+}
+
+.total {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
