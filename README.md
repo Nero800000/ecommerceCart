@@ -1,3 +1,5 @@
+Carrinho de compras Ecommerce
+
 Tech Stack
 - Next.js
 - Zustand
