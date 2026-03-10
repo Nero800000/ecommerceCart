@@ -11,3 +11,6 @@ Features
 - Gerecniamento de estado no carinho 
 - Historico de compras
 - Desconto calculado 
+
+Para usar a autenticação do Google, você deve criar suas próprias credenciais OAuth
+no Console do Google Cloud e adicione-os a um arquivo .env.local
